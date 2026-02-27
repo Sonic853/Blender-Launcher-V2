@@ -49,7 +49,7 @@ prog:
 
   reading_local: Reading local builds
   checking: Checking for new builds
-  last_check: Last check at %{time}
+  last_check: 上次检查：%{time}
 
 # actions
 a:
@@ -100,9 +100,9 @@ a:
   delete: Delete From Drive
   trash: Send to Trash
 
-  check: 检查
+  check: 检查更新
   check_tooltip: |
-      Check for new builds online
+      在线检查新版本
       (Hold SHIFT to force check stable and automated builds)
 
   version_tooltip: The version of Blender Launcher that is currently run. Press to check changelog.

@@ -1,0 +1,108 @@
+# popups
+ok: 好
+accept: 同意
+cancel: 撤销
+quit: 退出
+hide: 隐藏
+show: 显示
+next: 下一步
+prev: 上一步
+back: 返回
+cont: 继续
+finish: 完成
+"yes": "是"
+"no": "否"
+retry: 重试
+update: 更新
+later: 稍后
+
+update_library: Update Blender to the latest version
+restart_now: Restart Now
+trash: Trash
+remove: 移除
+delete: 删除
+dont_show_again: 不再显示
+migrate: Migrate
+overwrite: Overwrite
+general_folder: Open General Config Folder
+keep_both_versions: Keep Both Versions
+move_to_new: Move to New Version
+remove_settings: Remove Settings
+
+reload: Reload
+reload_tooltip: Reload Custom Builds from disk
+
+# left icon
+launch: 启动
+download: 下载
+installed: 已安装
+lprev: " Previous"
+updating: 更新中
+deleting: 删除中
+init: 初始化
+
+prog:
+  downloading: 下载中
+  extracting: 解压中
+  copying: 正在复制数据…
+  progress: "%{title}: %{progress} of %{total} MB"
+
+  reading_local: Reading local builds
+  checking: Checking for new builds
+  last_check: Last check at %{time}
+
+# actions
+a:
+  settings_win: 显示设置窗口
+  docs: 打开文档
+
+
+  prev: Open Previous File
+  prev_tooltip: |
+    This action opens the last file used in this Build.
+    (Appends `--open-last` to the execution arguments)
+    SHORTCUT: Shift + Launch or Doubleclick
+  quick_launch: Add to Quick Launch
+  fav:
+    add: Add to Favorites
+    rem: Remove from Favorites
+  update: Update Blender Build
+  update_tooltip: Update this build to the latest version
+  d:
+    d: Debug
+    log: Debug Log
+    factory: Factory Startup
+    gpu: Debug GPU
+    glitch: Debug GPU Glitch Workaround
+  rename: Rename Branch
+
+  register: Register Extension
+  register_tooltip: Use this build for .blend files and to display thumbnails
+  shortcut: Create Shortcut
+  symlink: Create Symlink
+  template: Install Template
+  port:
+    add: Make Portable
+    rem: Unmake Portable
+  hash: Copy Build Hash
+  freeze:
+    add: Freeze update
+    rem: Unfreeze Update
+
+  release_notes: Show Release Notes
+  release_notes_patch: Show Patch Details
+  release_notes_pr: Show PR Details
+  folder_build: Show Build Folders
+  config: Show Config Folder
+  config_portable: Show Portable Config Folder
+
+  edit: Edit Build...
+  delete: Delete From Drive
+  trash: Send to Trash
+
+  check: 检查
+  check_tooltip: |
+      Check for new builds online
+      (Hold SHIFT to force check stable and automated builds)
+
+  version_tooltip: The version of Blender Launcher that is currently run. Press to check changelog.
